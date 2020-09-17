@@ -1,0 +1,38 @@
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.4rem;
+}
+
+.find-todo {
+    color: #eef7fd;
+    background: #04121c;
+}
+
+.hide-completed span {
+    margin-left: 1rem;
+}
+
+.hide-completed label:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 40rem) {
+    .subheader {
+        display: block
+    }
+    .hide-completed span {
+        margin-left: 3rem;
+    }
+    .hide-completed {
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width: 20rem) {
+    .find-todo {
+        color: #eef7fd;
+        background: #04121c;
+        width: 100%;
+    }
+}

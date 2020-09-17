@@ -1,0 +1,19 @@
+.todos {
+    background: #445f73;
+    width: 100%;
+}
+
+.todos h1 {
+    margin: 0;
+    padding: 1rem ;
+    padding-left: 1rem; 
+    margin-top: 2rem;
+    background: #354d5e;
+}
+
+.todos_list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
+}

@@ -1,0 +1,46 @@
+h1, span {
+    color: #eef7fd;
+}
+
+button {
+    border: none;
+    text-decoration: none;
+    border: none;
+}
+
+
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+
+::placeholder {
+    color: #6b879c
+}
+
+button:hover{
+    color: #62b8f1;
+    cursor: pointer; 
+}
+
+input:enabled {
+    border: none;
+}
+
+
+@media (min-width: 48rem){
+    .container {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 0 1.6rem;
+    }
+}
+
+@media (min-width: 80rem){
+    .container {
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 0 1.6rem;
+    }
+}
