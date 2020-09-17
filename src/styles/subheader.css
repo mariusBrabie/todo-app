@@ -31,8 +31,6 @@
 
 @media (max-width: 20rem) {
     .find-todo {
-        color: #eef7fd;
-        background: #04121c;
         width: 100%;
     }
 }
