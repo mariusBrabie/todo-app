@@ -21,6 +21,7 @@ const Container = () => {
     }
 
     const [hideCompleteTodos, setHideCompleteTodos] = useState('')
+
     const hideCompleted = (childData) => {
         setHideCompleteTodos(childData)
     }
@@ -29,8 +30,8 @@ const Container = () => {
         <Header />
         <div className="container">
             <Subheader 
-                firstCallback={handleCallback}
-                secondCallback={hideCompleted}
+                handleCallback={handleCallback}
+                hideCompleted={hideCompleted}
             />
             <div className="todos">
                 <Todos 

@@ -4,11 +4,11 @@ import '../styles/subheader.css'
 const Subheader = (props) => {
     
     const whenInputChange = (e) => {
-        props.firstCallback(e.target.value)
+        props.handleCallback(e.target.value)
     }
 
     const whenHideDone = (e) => {
-        props.secondCallback(e.target.checked)
+        props.hideCompleted(e.target.checked)
     }
 
     return <div className="subheader">
